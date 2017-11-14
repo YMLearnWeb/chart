@@ -100,6 +100,7 @@ $(document).ready(function(){
 						_insertContent = _insertContent + _row;						
 					}
 					$(_insertContent).appendTo($("#reportTable"));
+					$(".table-report").show();
 					//generate chart
 					var datasetA = {
 						labels:__labels,
